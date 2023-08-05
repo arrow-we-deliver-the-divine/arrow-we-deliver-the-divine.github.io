@@ -1,6 +1,10 @@
 *, *::before, *::after {
   box-sizing: border-box; }
 
+#tabl {
+  text-align: center;
+  padding-bottom: 5%; }
+
 #tip {
   font-size: 7vw;
   font-family: Avenir; }
@@ -32,5 +36,22 @@
   color: #fff;
   background-color: #000;
   transform: scale(1.5); }
+
+#fedaykin {
+  font-size: 8vw;
+  display: inline-block; }
+  @media screen and (max-width: 768px) {
+    #fedaykin {
+      width: 90vw;
+      height: 5vh;
+      font-size: 11vw; } }
+
+#points {
+  font-size: 3vw; }
+  @media screen and (max-width: 768px) {
+    #points {
+      width: 93vw;
+      height: 5vh;
+      font-size: 5vw; } }
 
 /*# sourceMappingURL=arrow.css.map */

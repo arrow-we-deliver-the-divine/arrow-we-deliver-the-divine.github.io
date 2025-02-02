@@ -1,0 +1,52 @@
+*, *::before, *::after {
+  box-sizing: border-box; }
+
+#tip {
+  font-size: 7vw;
+  font-family: Avenir; }
+
+#line {
+  text-decoration: none;
+  color: #000;
+  font-size: 3vw;
+  font-family: Avenir; }
+
+.flyer {
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  background-color: #fff;
+  font-family: Avenir;
+  font-size: 1.8vw;
+  border: 3px solid black;
+  padding: 4px;
+  margin: 2vw;
+  transition: 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55); }
+  @media screen and (max-width: 768px) {
+    .flyer {
+      width: 30vw;
+      height: 5vh;
+      font-size: 5vw; } }
+
+.flyer:hover {
+  color: #fff;
+  background-color: #000;
+  transform: scale(1.5); }
+
+#fedaykin {
+  font-size: 11vw; }
+  @media screen and (max-width: 768px) {
+    #fedaykin {
+      width: 30vw;
+      height: 5vh;
+      font-size: 1vw; } }
+
+#points {
+  font-size: 8vw; }
+  @media screen and (max-width: 768px) {
+    #points {
+      width: 30vw;
+      height: 5vh;
+      font-size: 1vw; } }
+
+/*# sourceMappingURL=arrow.css.map */
